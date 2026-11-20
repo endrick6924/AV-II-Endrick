@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Novo artigo · Giro de Garagem</title>
+  <link rel="stylesheet" href="garagem.css">
+  <script src="painel.js" defer></script>
+</head>
+<body>
+  <header><nav class="wrap" aria-label="Navegação principal">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true">◒</span> Giro de Garagem</a>
+    <a href="./#acervo">Artigos</a><a class="btn" href="criar.html">Novo artigo</a>
+  </nav></header>
+  <main class="wrap">
+    <section class="editor">
+      <p class="kicker">Box dos autores</p>
+      <h1>Novo artigo</h1>
+      <form id="editor">
+        <label>Título<input name="titulo" required maxlength="200"></label>
+        <label>Categoria<select name="categoria" required><option value="">Escolha uma categoria</option><option>Motores</option><option>Comparativos</option><option>Manutenção</option><option>História</option><option>Novidades</option></select></label>
+        <label>Resumo (opcional)<textarea name="descricao" rows="2" maxlength="300"></textarea></label>
+        <label>Texto completo<textarea name="conteudo" required rows="8"></textarea></label>
+        <label>Senha de edição<input name="senha" type="password" required autocomplete="current-password"></label>
+        <button type="submit">Publicar artigo</button>
+      </form>
+      <p id="aviso" role="status"></p>
+    </section>
+  </main>
+  <footer><div class="wrap">Giro de Garagem · Endrick Ferreira Pedroso e Heitor Flores Liberali</div></footer>
+</body>
+</html>

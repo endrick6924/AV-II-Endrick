@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Artigos · Giro de Garagem</title>
+  <link rel="stylesheet" href="garagem.css">
+  <script src="painel.js" defer></script>
+</head>
+<body>
+  <header><nav class="wrap" aria-label="Navegação principal">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true">◒</span> Giro de Garagem</a>
+    <a href="./#acervo">Artigos</a><a class="btn" href="criar.html">Novo artigo</a>
+  </nav></header>
+  <main class="wrap">
+    <section class="hero"><div><p class="kicker">Caderno de garagem</p><h1>Debaixo do capô</h1><p>Motores, modelos e conversas de quem gosta de entender o carro por dentro.</p></div><img src="capa.png" alt="Cupê laranja em uma pista ao pôr do sol"></section>
+    <section id="acervo" class="collection">
+      <aside><h2>Na oficina</h2><form class="filters" id="filtros">
+        <label>Pesquisar<input name="q" type="search" placeholder="Ex.: motor"></label>
+        <label>Categoria<select name="categoria"><option value="">Todas</option><option>Motores</option><option>Comparativos</option><option>Manutenção</option><option>História</option><option>Novidades</option></select></label>
+        <button>Buscar</button>
+      </form></aside>
+      <div><p class="message" role="status" id="aviso">Buscando publicações…</p>
+        <div id="lista"></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">Giro de Garagem · Endrick Ferreira Pedroso e Heitor Flores Liberali</div></footer>
+</body>
+</html>
