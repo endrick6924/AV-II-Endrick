@@ -45,3 +45,7 @@ Respostas principais: 200 para consulta, 201 para cadastro, 400 para dados invá
 - Extraia o ZIP. Coloque **o conteúdo da pasta giro-de-garagem** na raiz de um repositório próprio, inclusive os arquivos com ponto no início. Entregue o endereço do repositório ao professor. Para executar, use Spring Boot ou Codespaces com suas variáveis configuradas.
 
 A estrutura inicial do backend foi adaptada do GameBlog fornecido na atividade. A licença Apache 2.0 original acompanha o código.
+
+## Senha Supabase
+- atx7jV9PpWFGbOpw
+- 
