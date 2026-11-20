@@ -1,0 +1,5 @@
+com/girodegaragem/repository/PublicacaoRepository.class
+com/girodegaragem/controller/PublicacaoController.class
+com/girodegaragem/exception/PublicacaoNaoEncontradaException.class
+com/girodegaragem/model/Publicacao.class
+com/girodegaragem/BlogApplication.class

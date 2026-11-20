@@ -1,0 +1,5 @@
+/workspaces/AV-II-Endrick/backend/src/main/java/com/girodegaragem/repository/PublicacaoRepository.java
+/workspaces/AV-II-Endrick/backend/src/main/java/com/girodegaragem/controller/PublicacaoController.java
+/workspaces/AV-II-Endrick/backend/src/main/java/com/girodegaragem/model/Publicacao.java
+/workspaces/AV-II-Endrick/backend/src/main/java/com/girodegaragem/BlogApplication.java
+/workspaces/AV-II-Endrick/backend/src/main/java/com/girodegaragem/exception/PublicacaoNaoEncontradaException.java
